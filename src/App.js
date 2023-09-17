@@ -6,7 +6,7 @@ function App() {
   return (
     <>
      <Layout>
-      This is Body
+      This is Body.
      </Layout>
     </>
   );
