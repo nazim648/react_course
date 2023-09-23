@@ -3,6 +3,7 @@ import './style.css';
 import siteLogo from './logo.png';
 import { FaSearch } from 'react-icons/fa';
 import { IoMdCart } from 'react-icons/io';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -13,19 +14,19 @@ const Header = () => {
             <nav>
               <ul className='link_list'>
                 <li>
-                  <a href="#" title='Shop'>Shop</a>
+                  <Link to="/" title='Home'>Home</Link>
                 </li>
                 <li>
-                  <a href="#" title='About'>About</a>
+                  <Link to="/about" title='About'>About</Link>
                 </li>
                 <li>
-                  <a href="#" title='For Business'>For Business</a>
+                  <Link to="/business" title='For Business'>For Business</Link>
                 </li>
                 <li>
-                  <a href="#" title='Blog'>Blog</a>
+                  <Link to="/blog" title='Blog'>Blog</Link>
                 </li>
                 <li>
-                  <a href="#" title='Support'>Support</a>
+                  <Link to="/support" title='Support'>Support</Link>
                 </li>
               </ul>
             </nav>

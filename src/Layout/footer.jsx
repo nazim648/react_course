@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="page_width">
           <div className="footer_content">
             <div className="becom_alen">
-              <h4 className="become_title">Become an Alen Insider</h4>
+              <h3 className="become_title">Become an Alen Insider</h3>
               <p className="become_desp">Subscribe to our newsletter and get 5% off your first purchase, plus exclusive offers and insider tips to achieve the indoor air of your dreams.</p>
               <div className="become_input">
                 <div className="arrow_icon"><FaArrowRight/></div>

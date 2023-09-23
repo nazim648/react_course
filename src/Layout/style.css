@@ -86,3 +86,19 @@ footer{
 .social_icons li a svg{
     fill: #00afab;
 }
+.footer_content h3{
+color: #fff;
+}
+.becom_alen .become_desp{
+    margin: 15px 0;
+    color: #fff;
+}
+.footer_content ul li a{
+    color: #fff;
+}
+.footer_content ul li{
+    padding: 10px 0;
+}
+.footer_content ul{
+    margin-bottom: 15px;
+}
