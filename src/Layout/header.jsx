@@ -4,13 +4,18 @@ import siteLogo from './logo.png';
 import { FaSearch } from 'react-icons/fa';
 import { IoMdCart } from 'react-icons/io';
 import { Link } from 'react-router-dom';
+import { FaHamburger } from 'react-icons/fa';
 
 const Header = () => {
+  
   return (
     <>
       <header>
         <div className="page_width">
           <div className="header_content">
+            <div className="hamburger">
+<FaHamburger/>
+            </div>
             <nav>
               <ul className='link_list'>
                 <li>
