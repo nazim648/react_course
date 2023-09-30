@@ -98,7 +98,310 @@ color: #fff;
 }
 .footer_content ul li{
     padding: 10px 0;
+    transition: 0.5s ease-in-out;
 }
 .footer_content ul{
     margin-bottom: 15px;
+}
+/* About us page top section css start */
+.about_top_section{
+    margin: 80px 0px;
+}
+.about_top_section_content{
+    display: flex;
+    gap: 50px;
+}
+.top_left_section{
+    width: 50%;
+}
+.top_left_section h2{
+    font-size: 55px;
+    padding-bottom: 20px;
+}
+
+.top_left_section p{
+    font-size: 18px;
+
+}
+.top_right_section{
+    width: 50%;
+}
+.top_right_section img{
+    width: 100%;
+}
+
+/* About us page top section css end */
+
+
+/* About page lockup section css start */
+.about_lockup_vision{
+    margin: 80px 0px;
+}
+.about_lockup_vision_content{
+    display: flex;
+    text-align: center;
+}
+.about_lockup_vision .our_vision{
+    width: 50%;
+    background-color: #55667f;
+    padding: 50px;
+}
+.about_lockup_vision .our_mission h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.top_left_section p{
+    font-size: 18px;
+
+}
+.about_lockup_vision .our_mission{
+    width: 50%;
+    background-color: #9bcbd9;
+    padding: 50px;
+}
+.about_lockup_vision .our_vision h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+/* About page lockup section css end*/
+
+/* About page culture section css start */
+.about_culture_section{
+    margin: 80px 0px;
+}
+.about_culture_section_content{
+    display: flex;
+    gap: 50px;
+}
+.culture_text_section{
+    width: 50%;
+}
+.culture_text_section h2{
+    font-size: 55px;
+    padding-bottom: 20px;
+}
+
+.culture_text_section p{
+    font-size: 18px;
+
+}
+.culture_img_section{
+    width: 50%;
+}
+.culture_img_section img{
+    width: 100%;
+}
+/* About page culture section css end */
+
+/* About page care section css start */
+.about_value_section{
+ background-color: #f4f9f9;
+ padding: 50px 0px 80px;
+}
+.about_value_content{
+    margin: 0px 0; 
+
+}
+.about_value_list_1{
+    display: flex;
+    gap: 80px;
+    margin: 20px 0; 
+    width: 100%;
+}
+.about_value_list_1 .care{
+display: flex;
+align-items: center;
+padding: 20px 0;
+width: 50%;
+border-bottom: solid 1px #55667f;
+}
+.about_value_list_1 .care h2{
+    color: #00b2a940;
+    font-size: 90px;
+    padding: 0px 20px;
+    }
+
+.about_value_list_1 .care h3{
+    padding-bottom: 10px;
+}    
+
+.about_value_list_1 .collaborate{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    width: 50%;
+    border-bottom: solid 1px #55667f;
+    }
+.about_value_list_1 .collaborate h2{
+        color: #00b2a940;
+        font-size: 90px;
+        padding: 0px 20px;
+}
+.about_value_list_1 .collaborate h3{
+    padding-bottom: 10px;
+}
+
+.about_value_list_2{
+    display: flex;
+    gap: 80px;
+    margin: 20px 0; 
+    width: 100%;
+}
+.about_value_list_2 .imagine{
+display: flex;
+align-items: center;
+padding: 20px 0;
+width: 50%;
+border-bottom: solid 1px #55667f;
+}
+.about_value_list_2 .imagine h2{
+    color: #00b2a940;
+    font-size: 90px;
+    padding: 0px 20px;
+    }
+
+.about_value_list_2 .imagine h3{
+    padding-bottom: 10px;
+}    
+
+.about_value_list_2 .adapt{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    width: 50%;
+    border-bottom: solid 1px #55667f;
+    }
+.about_value_list_2 .adapt h2{
+        color: #00b2a940;
+        font-size: 90px;
+        padding: 0px 20px;
+}
+.about_value_list_2 .adapt h3{
+    padding-bottom: 10px;
+}
+  
+/* About page care section css end */
+
+
+/* About page blog section css start */
+
+.blog_content{
+    text-align: center;
+    padding: 80px 0px;
+}
+.blog_content h2{
+    font-size: 36px;
+    color: #55667f;
+}
+.blog_section_1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 50px 0px 15px 0px;
+}
+
+.blog_colum_1, .blog_colum_2, .blog_colum_3{
+    width: 33%;
+    padding: 250px 30px 10px 30px ;
+    text-align: center;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog_section_1 .blog_colum_1{
+    background: linear-gradient(45deg,rgba(85,102,127,.9),rgba(255,255,255,0)), url('./Alen_Donated.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog_section_1 .blog_colum_2{
+    background: linear-gradient(45deg,rgba(85,102,127,.9),rgba(255,255,255,0)), url('./AlenDonatesAirPurifiersto.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.blog_section_1 .blog_colum_3{
+    background: linear-gradient(45deg,rgba(85,102,127,.9),rgba(255,255,255,0)), url('./AlenDonatesAirPurifierto.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.blog_section_2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 15px 0px;
+}
+.blog_section_2 .blog_colum_1{
+    background: linear-gradient(45deg,rgba(85,102,127,.9),rgba(255,255,255,0)), url('./AlenCommunity.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog_section_2 .blog_colum_2{
+    background: linear-gradient(45deg,rgba(85,102,127,.9),rgba(255,255,255,0)), url('./AustinHumane.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.blog_section_2 .blog_colum_3{
+    background: linear-gradient(45deg,rgba(85,102,127,.9),rgba(255,255,255,0)), url('./AlenDonatesPPEtoLocal.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog_colum_1:hover, .blog_colum_2:hover, .blog_colum_3:hover {
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+        overflow: hidden;
+      }
+
+/* About page blog section css end */
+.banner_cntent{
+    position: relative;
+}
+.banner_text{
+    position: absolute;
+    text-align: center;
+}
+.hamburger{
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .hamburger{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    .footer_content{
+        gap: 30px;
+    }
+    .becom_alen {
+        width: 48%;
+    }
+    .shop {
+        width: 48%;
+    }
+    .about_us {
+        width: 48%;
+    }
+    .customer_suport {
+        width: 48%;
+    }
+}
+@media screen and (max-width: 1249px){
+    .page_width{
+        padding: 0 20px;
+    }
+}
+.footer_content ul li:hover {
+    padding: 10px 10px;
+    transition: 0.5s ease-in-out;
+    background-color: green;
 }
